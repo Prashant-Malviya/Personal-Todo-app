@@ -17,6 +17,7 @@ function Header() {
             <nav className='header bg-slate-200 flex justify-between items-center py-8 fixed w-full z-50'>
                 <div className="logo w-1/4 text-center">
                     <NavLink to="/">Todo</NavLink>
+
                 </div>
                 <div className='flex justify-between'>
                     {
@@ -33,6 +34,8 @@ function Header() {
                                 <li>
                                     <NavLink to="/register">Register</NavLink>
                                 </li>
+
+                               
                             </ul>
                         )
                     }

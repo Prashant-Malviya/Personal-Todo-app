@@ -26,7 +26,7 @@ function Task({ task, id }) {
   };
 
   return (
-    <div className="bg-slate-300 py-4 rounded-lg shadow-md flex items-center justify-center gap-2 mb-3 p-3">
+    <div className="bg-gradient-to-br from-amber-200 to-purple-300 py-4 rounded-lg shadow-xl flex items-center justify-center gap-2 mb-3 p-3">
       <div className="mark-done">
         <input
           type="checkbox"

@@ -26,7 +26,7 @@ function ForgotPassword() {
         }
     }
     return (
-        <div className="text-center">
+        <div className="text-center min-h-screen bg-gradient-to-br from-amber-200 via-purple-300 to-amber-200 flex justify-center items-center flex-col">
             <h1 className="text-xl font-bold p-5">Forgot Password</h1>
             <form className="w-2/5 mx-auto p-5" onSubmit={handleSubmit}>
                 <input type="email"

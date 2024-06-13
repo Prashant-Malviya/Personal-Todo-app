@@ -47,17 +47,7 @@ function taskReducer(tasks, action) {
             });
         }
 
-        // case "EDIT_TASK": {
-        //     return tasks.map((task, index) => {
-        //         if (index === action.id) {
-        //             return {
-        //                 ...task,
-        //                 ...action.task
-        //             };
-        //         }
-        //         return task;
-        //     });
-        // }
+        
 
         default: {
             throw new Error("Unknown action: " + action.type);

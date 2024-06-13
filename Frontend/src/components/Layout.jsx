@@ -9,7 +9,7 @@ function Layout() {
       <div className="flex flex-col md:flex-row md:justify-between">
         <CreateTask />
         <div className="task-container w-auto mx-5 md:w-1/3 mt-3">
-          <div className="outlet bg-gradient-to-br from-purple-300 via-gray-400 to-blue-600">
+          <div className="outlet bg-gradient-to-br from-purple-400 via-green-300 to-blue-600">
             <Outlet />
           </div>
           <div className="indicator">
